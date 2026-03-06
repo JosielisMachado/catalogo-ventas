@@ -1,122 +1,122 @@
 [
   {
-    "archivo": "10.jpeg",
-    "nombre": "10",
-    "precio": "Consultar"
+    "archivo": "Audífonos_Bluetooth-2200.jpeg",
+    "nombre": "Audífonos Bluetooth",
+    "precio": "2200"
   },
   {
-    "archivo": "11.jpeg",
-    "nombre": "11",
-    "precio": "Consultar"
+    "archivo": "Billeteras-2000.jpeg",
+    "nombre": "Billeteras",
+    "precio": "2000"
   },
   {
-    "archivo": "12.jpeg",
-    "nombre": "12",
-    "precio": "Consultar"
+    "archivo": "Carteras-5500.jpeg",
+    "nombre": "Carteras",
+    "precio": "5500"
   },
   {
-    "archivo": "13.jpeg",
-    "nombre": "13",
-    "precio": "Consultar"
+    "archivo": "Cintos-2000.jpeg",
+    "nombre": "Cintos",
+    "precio": "2000"
   },
   {
-    "archivo": "14.jpeg",
-    "nombre": "14",
-    "precio": "Consultar"
+    "archivo": "Cintos_anchos-2000.jpeg",
+    "nombre": "Cintos anchos",
+    "precio": "2000"
   },
   {
-    "archivo": "15.jpeg",
-    "nombre": "15",
-    "precio": "Consultar"
+    "archivo": "Cintos_finos-1000.jpeg",
+    "nombre": "Cintos finos",
+    "precio": "1000"
   },
   {
-    "archivo": "16.jpeg",
-    "nombre": "16",
-    "precio": "Consultar"
+    "archivo": "Cintos_finos-800.jpeg",
+    "nombre": "Cintos finos",
+    "precio": "800"
   },
   {
-    "archivo": "17.jpeg",
-    "nombre": "17",
-    "precio": "Consultar"
+    "archivo": "Cintos_para_hombre-2000.jpeg",
+    "nombre": "Cintos para hombre",
+    "precio": "2000"
   },
   {
-    "archivo": "18.jpeg",
-    "nombre": "18",
-    "precio": "Consultar"
+    "archivo": "Fletera-2500.jpeg",
+    "nombre": "Fletera",
+    "precio": "2500"
   },
   {
-    "archivo": "19.jpeg",
-    "nombre": "19",
-    "precio": "Consultar"
-  },
-  {
-    "archivo": "2.jpeg",
-    "nombre": "2",
-    "precio": "Consultar"
-  },
-  {
-    "archivo": "20.jpeg",
-    "nombre": "20",
-    "precio": "Consultar"
-  },
-  {
-    "archivo": "21.jpeg",
-    "nombre": "21",
-    "precio": "Consultar"
-  },
-  {
-    "archivo": "22.jpeg",
-    "nombre": "22",
-    "precio": "Consultar"
-  },
-  {
-    "archivo": "23.jpeg",
-    "nombre": "23",
-    "precio": "Consultar"
-  },
-  {
-    "archivo": "24.png",
-    "nombre": "24",
-    "precio": "Consultar"
-  },
-  {
-    "archivo": "3.jpeg",
-    "nombre": "3",
-    "precio": "Consultar"
-  },
-  {
-    "archivo": "4.jpeg",
-    "nombre": "4",
-    "precio": "Consultar"
-  },
-  {
-    "archivo": "5.jpeg",
-    "nombre": "5",
-    "precio": "Consultar"
-  },
-  {
-    "archivo": "6.jpeg",
-    "nombre": "6",
-    "precio": "Consultar"
-  },
-  {
-    "archivo": "7.jpeg",
-    "nombre": "7",
-    "precio": "Consultar"
-  },
-  {
-    "archivo": "8.jpeg",
-    "nombre": "8",
-    "precio": "Consultar"
-  },
-  {
-    "archivo": "9.jpeg",
-    "nombre": "9",
-    "precio": "Consultar"
+    "archivo": "Fletera-4000.jpeg",
+    "nombre": "Fletera",
+    "precio": "4000"
   },
   {
     "archivo": "Fletera_para_hombres-6200.jpeg",
     "nombre": "Fletera para hombres",
     "precio": "6200"
+  },
+  {
+    "archivo": "Gafas-1400.jpeg",
+    "nombre": "Gafas",
+    "precio": "1400"
+  },
+  {
+    "archivo": "Gafas_para_Hombre-2500.jpeg",
+    "nombre": "Gafas para Hombre",
+    "precio": "2500"
+  },
+  {
+    "archivo": "Loncheras_para_niñas_y_niños-1300.jpeg",
+    "nombre": "Loncheras para niñas y niños",
+    "precio": "1300"
+  },
+  {
+    "archivo": "Mochilas-2800.jpeg",
+    "nombre": "Mochilas",
+    "precio": "2800"
+  },
+  {
+    "archivo": "Mochilas-4000.jpeg",
+    "nombre": "Mochilas",
+    "precio": "4000"
+  },
+  {
+    "archivo": "Mochilas_Fashion-2800.jpeg",
+    "nombre": "Mochilas Fashion",
+    "precio": "2800"
+  },
+  {
+    "archivo": "Mochilas_medianas_para_mujer-5000.jpeg",
+    "nombre": "Mochilas medianas para mujer",
+    "precio": "5000"
+  },
+  {
+    "archivo": "Mochilas_negras-4000.jpeg",
+    "nombre": "Mochilas negras",
+    "precio": "4000"
+  },
+  {
+    "archivo": "Reloj_Calculadora-1000.jpeg",
+    "nombre": "Reloj Calculadora",
+    "precio": "1000"
+  },
+  {
+    "archivo": "Reloj_Deportivo-700.jpeg",
+    "nombre": "Reloj Deportivo",
+    "precio": "700"
+  },
+  {
+    "archivo": "Todos-100.png",
+    "nombre": "Todos",
+    "precio": "100"
+  },
+  {
+    "archivo": "Trimer_recargable-cabeza_metálica-2300.jpeg",
+    "nombre": "Trimer recargable",
+    "precio": "cabeza_metálica"
+  },
+  {
+    "archivo": "Trimer_recargable_plástica-2100.jpeg",
+    "nombre": "Trimer recargable plástica",
+    "precio": "2100"
   }
 ]
