@@ -1,1 +1,122 @@
-["1.jpeg","10.jpeg","11.jpeg","12.jpeg","13.jpeg","14.jpeg","15.jpeg","16.jpeg","17.jpeg","18.jpeg","19.jpeg","2.jpeg","20.jpeg","21.jpeg","22.jpeg","23.jpeg","24.png","3.jpeg","4.jpeg","5.jpeg","6.jpeg","7.jpeg","8.jpeg","9.jpeg"]
+[
+  {
+    "archivo": "10.jpeg",
+    "nombre": "10",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "11.jpeg",
+    "nombre": "11",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "12.jpeg",
+    "nombre": "12",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "13.jpeg",
+    "nombre": "13",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "14.jpeg",
+    "nombre": "14",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "15.jpeg",
+    "nombre": "15",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "16.jpeg",
+    "nombre": "16",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "17.jpeg",
+    "nombre": "17",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "18.jpeg",
+    "nombre": "18",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "19.jpeg",
+    "nombre": "19",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "2.jpeg",
+    "nombre": "2",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "20.jpeg",
+    "nombre": "20",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "21.jpeg",
+    "nombre": "21",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "22.jpeg",
+    "nombre": "22",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "23.jpeg",
+    "nombre": "23",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "24.png",
+    "nombre": "24",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "3.jpeg",
+    "nombre": "3",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "4.jpeg",
+    "nombre": "4",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "5.jpeg",
+    "nombre": "5",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "6.jpeg",
+    "nombre": "6",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "7.jpeg",
+    "nombre": "7",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "8.jpeg",
+    "nombre": "8",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "9.jpeg",
+    "nombre": "9",
+    "precio": "Consultar"
+  },
+  {
+    "archivo": "Fletera_para_hombres-6200.jpeg",
+    "nombre": "Fletera para hombres",
+    "precio": "6200"
+  }
+]

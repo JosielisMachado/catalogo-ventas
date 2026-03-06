@@ -3,28 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo de Productos</title>
+    <title>Catálogo de Productos - Bayamo</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-        .galeria { display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; margin-top: 20px; }
-        .producto { border: 1px solid #ddd; padding: 10px; border-radius: 8px; }
-        img { max-width: 250px; height: auto; border-radius: 5px; }
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; background-color: #f9f9f9; }
+        .galeria { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 20px; }
+        .producto { background: white; border: 1px solid #ddd; padding: 15px; border-radius: 8px; width: 250px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        img { max-width: 100%; height: auto; border-radius: 5px; }
+        h3 { margin: 10px 0 5px; font-size: 1.2rem; color: #333; }
+        .precio { color: #d9534f; font-weight: bold; font-size: 1.1rem; margin-bottom: 15px; }
+        .btn-wa { display: inline-block; background-color: #25D366; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px; font-weight: bold; width: 90%; }
+        .btn-wa:hover { background-color: #1ebe57; }
     </style>
 </head>
 <body>
-    <h1>Nuestros Productos Disponibles</h1>
+    <h1>Catálogo de Productos</h1>
+    <p>Envíos disponibles en Bayamo, Granma.</p>
     <div class="galeria" id="contenedor-galeria"></div>
 
     <script>
-        // Fetch lee el archivo JSON que vamos a generar y crea las imágenes dinámicamente
         fetch('productos.json')
             .then(response => response.json())
-            .then(fotos => {
+            .then(productos => {
                 const contenedor = document.getElementById('contenedor-galeria');
-                fotos.forEach(foto => {
+                const numeroWa = "5354433225";
+                
+                // Esta es tu dirección base de GitHub Pages
+                const urlBase = "https://josielismachado.github.io/catalogo-ventas/fotos/";
+
+                productos.forEach(prod => {
                     const div = document.createElement('div');
                     div.className = 'producto';
-                    div.innerHTML = `<img src="fotos/${foto}" alt="Producto">`;
+
+                    // Armamos el mensaje automático para WhatsApp
+                    const mensaje = `Hola, estoy en Bayamo y me interesa el producto: ${prod.nombre} con precio de ${prod.precio} CUP. Puedes ver la imagen aquí: ${urlBase}${prod.archivo}`;
+                    const urlWa = `https://wa.me/${numeroWa}?text=${encodeURIComponent(mensaje)}`;
+
+                    div.innerHTML = `
+                        <img src="fotos/${prod.archivo}" alt="${prod.nombre}">
+                        <h3>${prod.nombre}</h3>
+                        <p class="precio">${prod.precio} CUP</p>
+                        <a href="${urlWa}" target="_blank" class="btn-wa">Comprar por WhatsApp</a>
+                    `;
                     contenedor.appendChild(div);
                 });
             })
