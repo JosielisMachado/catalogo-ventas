@@ -15,7 +15,33 @@
     <title>Catálogo de Productos - Bayamo</title>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; padding: 20px; background-color: #f9f9f9; }
-        .galeria { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 20px; }
+        
+        /* Estilos del nuevo banner de suscripción */
+        .banner-suscripcion {
+            background-color: #e8f5e9;
+            border: 2px dashed #25D366;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px auto 30px auto;
+            max-width: 600px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .banner-suscripcion h2 { margin-top: 0; color: #128C7E; font-size: 1.4rem; }
+        .banner-suscripcion p { color: #333; margin-bottom: 15px; }
+        .btn-canal {
+            display: inline-block;
+            background-color: #128C7E;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .btn-canal:hover { background-color: #075E54; }
+
+        /* Estilos de la galería */
+        .galeria { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
         .producto { background: white; border: 1px solid #ddd; padding: 15px; border-radius: 8px; width: 250px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
         img { max-width: 100%; height: auto; border-radius: 5px; }
         h3 { margin: 10px 0 5px; font-size: 1.2rem; color: #333; }
@@ -27,6 +53,13 @@
 <body>
     <h1>Catálogo de Productos</h1>
     <p>Envíos disponibles en Bayamo, Granma.</p>
+
+    <div class="banner-suscripcion">
+        <h2>🔔 ¡No te pierdas las novedades!</h2>
+        <p>Únete a nuestro canal oficial para recibir un aviso directo en tu celular cada vez que publiquemos nuevos productos y ofertas.</p>
+        <a href="https://whatsapp.com/channel/0029VbC2hQG4tRrwXIf9qB15" target="_blank" class="btn-canal">Unirme al Canal de Avisos</a>
+    </div>
+
     <div class="galeria" id="contenedor-galeria"></div>
 
     <script>
@@ -35,15 +68,12 @@
             .then(productos => {
                 const contenedor = document.getElementById('contenedor-galeria');
                 const numeroWa = "5354433225";
-                
-                // Esta es tu dirección base de GitHub Pages para cargar las fotos en el mensaje de WA
                 const urlBase = "https://josielismachado.github.io/catalogo-ventas/fotos/";
 
                 productos.forEach(prod => {
                     const div = document.createElement('div');
                     div.className = 'producto';
 
-                    // Armamos el mensaje automático para WhatsApp
                     const mensaje = `Hola, estoy en Bayamo y me interesa el producto: ${prod.nombre} con precio de ${prod.precio} CUP. Puedes ver la imagen aquí: ${urlBase}${prod.archivo}`;
                     const urlWa = `https://wa.me/${numeroWa}?text=${encodeURIComponent(mensaje)}`;
 
